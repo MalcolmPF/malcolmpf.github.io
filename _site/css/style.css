@@ -230,7 +230,7 @@ cite {font-style: normal}
 h1,h2,h3,h4,h5,h6 {
 	margin: 10px 0;
 	font-family: inherit;
-	font-weight: bold;
+	/*font-weight: bold;*/
 	line-height: 1;
 	color: inherit;
 	text-rendering: optimizelegibility
@@ -1359,7 +1359,7 @@ main.container,main.content>.container {width: 50em}
 	src: local("Noto Serif"),local("NotoSerif"),url(http://themes.googleusercontent.com/static/fonts/notoserif/v1/eCpfeMZI7q4jLksXVRWPQxsxEYwM7FgeyaSgU71cLG0.woff) format("woff")
  }
  
-.center-txt,.content h1,.entries,.pages,.home-icon,.post h5,.post h2,footer .container {text-align: center}
+.center-txt,.content h1,.entries,.pages,.home-icon,.post h5,.post h2,footer .container {text-align: left}
  
 .a-hover,.entries h3,.entries a,.home-icon a {
 	color: #333;
@@ -1381,7 +1381,7 @@ main.container,main.content>.container {width: 50em}
 	.content>.container {min-height: 58em}
  
 	.content h1 {
-		font-family: Georgia,"Times New Roman",Times,serif;
+		font-family: 'CMS', Georgia,"Times New Roman",Times,serif;
 		font-size: 6em;
 		margin-top: 1em;
 		border-bottom: 1px solid #222;
@@ -1432,7 +1432,7 @@ main.container,main.content>.container {width: 50em}
  }
  
 .post h2 {
-	font-family: Georgia,"Times New Roman",Times,serif;
+	font-family: 'CMS', Georgia,"Times New Roman",Times,serif;
 	font-size: 5em;
 	padding: 1.5em 0 0.5em;
 	letter-spacing: 0.05em

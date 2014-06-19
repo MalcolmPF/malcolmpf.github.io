@@ -23,7 +23,28 @@
 		<link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-		<link rel="shortcut icon" href="ico/favicon.png">	    
+		<link rel="shortcut icon" href="ico/favicon.png">
+
+	<!-- Type things -->
+
+        <link rel="stylesheet" href="../font/Serif/cmun-serif.css" />
+        <link rel="stylesheet" href="../font/Serif-Slanted/cmun-serif-slanted.css" />
+
+
+        <!--font awesome-->
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <!--fonts: allan & cardo-->
+        <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+        <link href="http://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet" type="text/css">
+
+        <link href="../../css/sticky-footer-navbar.css" rel="stylesheet">
+
+        <link href="../../css/default.css" rel="stylesheet">
+
+        <link href="../../comments/inlineDisqussions.css" rel="stylesheet">
+
+	    
 	</head>
 	<body>
 	<!-- Header
@@ -32,14 +53,6 @@
 
 	</header>
 
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX","output/HTML-CSS"],
-    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
-  });
-</script>
-<script type="text/javascript" src="/MathJax/MathJax.js"></script>
 
 	{{ content }}
 
@@ -56,6 +69,17 @@
 	    ================================================= -->
 	<script src="/js/jquery.min.js"></script>
 	<script src="/js/custom.js"></script>
+
+	<!-- MathJax -->
+	<script type="text/x-mathjax-config">
+	  MathJax.Hub.Config({
+	    extensions: ["tex2jax.js"],
+	    jax: ["input/TeX","output/HTML-CSS"],
+	    tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+	  });
+	</script>
+	<script type="text/javascript" src="/MathJax/MathJax.js"></script>
+
 
     <!-- Analytics
     ================================================== -->
